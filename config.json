@@ -4,16 +4,9 @@
         "dialect": "sqlite"
     },
     "production": {
-        "username": "YOUR_USERNAME",
-        "host": "YOUR_DATABASE-SERVER.database.windows.net",
-        "database": "YOUR_DATABASE",
-        "dialect": "mssql",
-        "ssl": true,
-        "dialectOptions": {
-            "ssl": {
-                "require": true,
-                "rejectUnauthorized": false
-            }
-        }
+        "username": "mohammad",
+        "host": "student-sign-in-database-server-mohammad.database.windows.net",
+        "database": "student-sign-in-database",
+        "dialect": "mssql"
     }
 }
